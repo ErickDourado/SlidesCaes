@@ -10,11 +10,6 @@ body{
     min-height: 800px;
 }
 
-@media screen and (max-width: 1280px){
-}
-
-@media screen and (max-height: 800px){
-}
 
 #botaoIniciar{
     position: absolute;
