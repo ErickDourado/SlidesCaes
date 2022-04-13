@@ -1,15 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    width: 1280px;
-    height: 800px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.slides{
+    margin: 0;
     min-width: 1280px;
     max-width: 1280px;
-    min-height: 800px;
-    max-height: 800px;
+    min-height: 710px;
+    max-height: 710px;
+    display: flex;
+    align-items: flex-end;
+    background-color: aqua;
 }
 
 @media screen and (max-width: 1280px){
