@@ -1,25 +1,27 @@
 body{
     margin: 0;
     padding: 0;
-    width: 768px;
-    height: 538px;
+    width: 1280px;
+    height: 800px;
     display: flex;
-    min-width: 768px;
-    min-height: 538px;
+    justify-content: center;
+    align-items: center;
+    min-width: 1280px;
+    min-height: 800px;
 }
 
 img{
     margin: 0;
-    min-width: 768px;
-    max-width: 768px;
-    min-height: 538px;
-    max-height: 538px;
+    min-width: 1280px;
+    max-width: 1280px;
+    min-height: 800px;
+    max-height: 800px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1280px){
 }
 
-@media screen and (max-height: 538px){
+@media screen and (max-height: 800px){
 }
 
 #botaoIniciar{
