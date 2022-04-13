@@ -4,21 +4,10 @@ body{
     display: flex;
 }
 
-.slides{
-    margin: 0;
-    min-width: 1280px;
-    max-width: 1280px;
-    min-height: 710px;
-    max-height: 710px;
-    display: flex;
-    align-items: flex-end;
-    background-color: aqua;
-}
-
 @media screen and (max-width: 1280px){
 }
 
-@media screen and (max-height: 800px){
+@media screen and (max-height: 720px){
 }
 
 #botaoIniciar{
