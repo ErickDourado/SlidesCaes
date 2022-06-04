@@ -11,17 +11,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 1280px;
-    min-height: 800px;
+    min-width: 800px;
+    min-height: 1280px;
 }
 
 #botaoIniciar{
     position: absolute;
     bottom: 0;
-    right: 25px;
+    right: 340px;
     text-align: center;
     padding: 40px;
-    margin: 0px 0px 65px 0px ;
+    margin: 0px 0px 80px 0px ;
     border-radius: 25px 25px 25px 25px;
     width: 135px;
     background:transparent; 
@@ -33,10 +33,10 @@ body{
 #proximo1{
     position: absolute;
     bottom: 0;
-    right: 49px;
+    right: 25px;
     text-align: center;
     padding: 20px;
-    margin: 0px 0px 380px 0px ;
+    margin: 0px 0px 625px 0px ;
     border-radius: 25px 25px 25px 25px;
     width: 55px;
     background:transparent; 
@@ -48,27 +48,27 @@ body{
 #proximo2{
     position: absolute;
     bottom: 0;
-    right: 49px;
+    right: 25px;
     text-align: center;
     padding: 20px;
-    margin: 0px 0px 380px 0px ;
+    margin: 0px 0px 625px 0px ;
     border-radius: 25px 25px 25px 25px;
     width: 55px;
     background:transparent; 
     border:none; 
-    outline:none; 
+    outline:none;     
     display:block; 
 }
 
 #proximo3{
     position: absolute;
     bottom: 0;
-    right: 49px;
+    right: 340px;
     text-align: center;
-    padding: 20px;
-    margin: 0px 0px 380px 0px ;
+    padding: 40px;
+    margin: 0px 0px 80px 0px ;
     border-radius: 25px 25px 25px 25px;
-    width: 55px;
+    width: 135px;
     background:transparent; 
     border:none; 
     outline:none; 
@@ -78,11 +78,11 @@ body{
 #volta1{
     position: absolute;
     bottom: 0;
-    left: 35px;
+    right: 710px;
     text-align: center;
-    padding: 50px;
-    margin: 0px 0px 350px 0px ;
-    clip-path: polygon(0 48%, 62% 76%, 61% 23%);
+    padding: 20px;
+    margin: 0px 0px 625px 0px ;
+    border-radius: 25px 25px 25px 25px;
     width: 55px;
     background:transparent; 
     border:none; 
@@ -93,33 +93,17 @@ body{
 #volta2{
     position: absolute;
     bottom: 0;
-    left: 35px;
+    right: 710px;
     text-align: center;
-    padding: 50px;
-    margin: 0px 0px 350px 0px ;
-    clip-path: polygon(0 48%, 62% 76%, 61% 23%);
+    padding: 20px;
+    margin: 0px 0px 625px 0px ;
+    border-radius: 25px 25px 25px 25px;
     width: 55px;
     background:transparent; 
     border:none; 
-    outline:none; 
+    outline:none;     
     display:block; 
 }
-
-#volta3{
-    position: absolute;
-    bottom: 0;
-    left: 35px;
-    text-align: center;
-    padding: 50px;
-    margin: 0px 0px 350px 0px ;
-    clip-path: polygon(0 48%, 62% 76%, 61% 23%);
-    width: 55px;
-    background:transparent; 
-    border:none; 
-    outline:none; 
-    display:block; 
-}
-
 
 #inicial{
     display: block;
